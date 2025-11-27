@@ -19,7 +19,7 @@ export default function App() {
       setWeather(response.data);
       setError("");
     } catch (err) {
-      console.log(err); // helpful for debugging
+      console.log(err); 
       setError("City not found. Try again.");
       setWeather(null);
     }

@@ -1,15 +1,10 @@
-/* ===== GLOBAL ===== */
 body {
   margin: 0;
   font-family: "Poppins", sans-serif;
 
-  background: linear-gradient(135deg, #1e3c72, #2a5298);
-
-  /* Center horizontally */
+  background: linear-gradient(135deg, hsl(287, 77%, 44%), hsl(281, 67%, 50%));
   display: flex;
   justify-content: center;
-
-  /* Let us control vertical layout */
   min-height: 100vh;
 }
 
@@ -17,16 +12,12 @@ body {
   width: 100%;
   max-width: 1200px;
   text-align: center;
-
-  /* Push UI up so it doesn’t look tiny */
   margin-top: 80px;
-
-  /* SCALE UP THE ENTIRE UI */
   transform: scale(1.45);  
   transform-origin: top center;
 }
 
-/* ===== TITLE ===== */
+/* TITLE */
 .title {
   font-size: 70px;
   color: white;
@@ -34,7 +25,7 @@ body {
   margin-bottom: 40px;
 }
 
-/* ===== SEARCH BAR ===== */
+/* SEARCH BAR */
 .search-container {
   display: flex;
   justify-content: center;
@@ -51,7 +42,7 @@ body {
 
 .search-btn {
   padding: 22px 36px;
-  background: #0b234a;
+  background: #470586;
   border: none;
   border-radius: 15px;
   color: white;
@@ -60,10 +51,10 @@ body {
 }
 
 .search-btn:hover {
-  background: #123b7a;
+  background: #e042c8;
 }
 
-/* ===== WEATHER CARD ===== */
+/* WEATHER CARD  */
 .weather-card {
   width: 90%;
   max-width: 950px;
@@ -112,5 +103,5 @@ body {
 /* Error message */
 .error {
   font-size: 28px;
-  color: #ff6b6b;
+  color: hsl(0, 100%, 1%);
 }

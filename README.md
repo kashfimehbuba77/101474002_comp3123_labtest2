@@ -1,16 +1,12 @@
 Comp3123 Lab Test 2
 
+Vercel Link: https://101474002-comp3123-labtest2.vercel.app/
+
 Student Name: Kashfi Mehbuba
 Student ID: 101474002
 
 This is a simple React weather application that allows users to search for any city and view the current weather conditions. The app displays temperature (°C), weather description, icon, humidity, wind speed, pressure, and cloudiness.
 Weather data is fetched in real-time from the OpenWeatherMap API.
-
-Set Up Steps to Run the App:
-
-1. Clone my Git repo by using the command: git clone https://github.com/kashfimehbuba77/101474002_comp3123_labtest2
-
-2. Start the app: npm start
 
 
 API Used -

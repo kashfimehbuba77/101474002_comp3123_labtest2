@@ -4,7 +4,7 @@ import SearchBar from "./components/SearchBar";
 import WeatherCard from "./components/WeatherCard";
 import "./styles.css";
 
-const API_KEY = "YOUR_API_KEY_HERE"; // <-- Replace this!
+const API_KEY = "ed772587ae8c964e7c7b952398cc8f55";
 
 export default function App() {
   const [city, setCity] = useState("Toronto");
@@ -19,6 +19,7 @@ export default function App() {
       setWeather(response.data);
       setError("");
     } catch (err) {
+      console.log(err); // helpful for debugging
       setError("City not found. Try again.");
       setWeather(null);
     }

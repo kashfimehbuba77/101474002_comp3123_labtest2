@@ -17,11 +17,19 @@ API Used -
 OpenWeatherMap – Current Weather API: https://api.openweathermap.org/data/2.5/weather
 
 Screenshots of my App:
+
+When you launch the app:
 ![alt text](image.png)
 
+Toronto Weather:
 ![alt text](image-1.png)
 
+Dhaka Weather:
 ![alt text](image-2.png)
 
+Odesa Weather:
 ![alt text](image-3.png)
+
+Invalid Input:
+![alt text](image-4.png)
 
